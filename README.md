@@ -10,7 +10,7 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 2. Create a helloworld.scala program:
 
 	object HelloWorld 
-	{
+	{	
 		def main(args: Array[String]) 
 		{
 			println("Hello, world!")
@@ -19,7 +19,7 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 
 3. Create a tasks.json file under the .vscode directory:
 
-	```// Available variables which can be used inside of strings.
+```	// Available variables which can be used inside of strings.
 	// ${workspaceRoot}: the root folder of the team
 	// ${file}: the current opened file
 	// ${fileBasename}: the current opened file's basename
@@ -48,7 +48,8 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 		// use the standard tsc problem matcher to find compile problems
 		// in the output.
 		"problemMatcher": "$msCompile"
-	}```
+	}
+```
 
 4. Run the Scala program by pressing ⌘-P
 and typing
