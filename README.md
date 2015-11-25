@@ -12,13 +12,13 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 **2. Create a helloworld.scala program:**
 
 ```scala
-	object HelloWorld 
-	{	
-		def main(args: Array[String]) 
-		{
-			println("Hello, world!")
-		}
+object HelloWorld 
+{	
+	def main(args: Array[String]) 
+	{
+		println("Hello, world!")
 	}
+}
 ```
 
 **3. Create a tasks.json file under the .vscode directory:**
