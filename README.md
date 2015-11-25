@@ -56,9 +56,7 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 	}
 ```
 
-**4. Run the Scala program by pressing** 
-    ⌘-P
-and typing
+**4. Run the Scala program by pressing ⌘-P and typing**
 
 ```bash
     task scala
