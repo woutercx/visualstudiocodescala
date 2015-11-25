@@ -37,7 +37,7 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 	{
 		"version": "0.1.0",
 	
-		// The command is scb.
+		// The command is scala.
 		"command": "scala",
 	
 		// The command is a shell script
@@ -46,12 +46,12 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 		// Show the output window only if unrecognized errors occur.
 		"showOutput": "always",
 	
-		// args is the HelloWorld program to compile.
-		//"args": ["HelloWorld.ts"],
+		// args is the file currently being edited.
 	    "args": ["${file}"],
 	
-		// use the standard tsc problem matcher to find compile problems
-		// in the output.
+		// use the standard problem matcher to find compile problems
+		// in the output. Didn't know what to fill in here since there is no
+		// problem matcher for Scala yet.
 		"problemMatcher": "$msCompile"
 	}
 ```
