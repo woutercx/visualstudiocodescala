@@ -3,15 +3,15 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 
 1. Install Scala with a Package Manager, for example with brew:
 
-{% highlight bash %}
+```bash
     brew update
     brew install scala
     brew install sbt
-{% endhighlight %}
+```
     
 2. Create a helloworld.scala program:
 
-{% highlight scala %}
+```scala
 	object HelloWorld 
 	{	
 		def main(args: Array[String]) 
@@ -19,11 +19,11 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 			println("Hello, world!")
 		}
 	}
-{% endhighlight %}
+```
 
 3. Create a tasks.json file under the .vscode directory:
 
-{% highlight js %}
+```js
 	// Available variables which can be used inside of strings.
 	// ${workspaceRoot}: the root folder of the team
 	// ${file}: the current opened file
@@ -54,12 +54,14 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 		// in the output.
 		"problemMatcher": "$msCompile"
 	}
-{% endhighlight %}
+```
 
 4. Run the Scala program by pressing ⌘-P
 and typing
 
+```bash
     task scala
+```
 
 and hitting [ENTER]
 
