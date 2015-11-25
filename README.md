@@ -1,7 +1,7 @@
 # visualstudiocodescala
 Make it possible to execute a simple helloworld.scala program in Visual Studio Code on a Mac.
 
-1. Install Scala with a Package Manager, for example with brew:
+**1. Install Scala with a Package Manager, for example with brew:**
 
 ```bash
     brew update
@@ -9,7 +9,7 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
     brew install sbt
 ```
     
-2. Create a helloworld.scala program:
+**2. Create a helloworld.scala program:**
 
 ```scala
 	object HelloWorld 
@@ -21,7 +21,7 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 	}
 ```
 
-3. Create a tasks.json file under the .vscode directory:
+**3. Create a tasks.json file under the .vscode directory:**
 
 ```js
 	// Available variables which can be used inside of strings.
@@ -56,7 +56,7 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 	}
 ```
 
-4. Run the Scala program by pressing ⌘-P
+**4. Run the Scala program by pressing ⌘-P**
 and typing
 
 ```bash
