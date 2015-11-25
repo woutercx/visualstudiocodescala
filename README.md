@@ -43,7 +43,7 @@ object HelloWorld
 	// The command is a shell script
 	"isShellCommand": true,
 
-	// Show the output window only if unrecognized errors occur.
+	// Show the output window always.
 	"showOutput": "always",
 
 	// args is the file currently being edited.
