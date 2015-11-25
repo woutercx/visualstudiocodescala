@@ -32,8 +32,8 @@ Make it possible to execute a simple helloworld.scala program in Visual Studio C
 	// ${fileExtname}: the current opened file's extension
 	// ${cwd}: the current working directory of the spawned process
 	
-	// A task runner that calls the Typescript compiler (tsc) and
-	// Compiles a HelloWorld.ts program
+	// A task runner that calls the Scala compiler and
+	// runs a HelloWorld.scala program
 	{
 		"version": "0.1.0",
 	
